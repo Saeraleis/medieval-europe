@@ -284,7 +284,7 @@ class Batch_Controller extends Template_Controller
 	{
 		$this -> auto_render = false;
 
-		$characters_plague_delete = Database::instance() -> query( " delete from character_stats where name ='disease' and param1='plague'; ");
+		//$characters_plague_delete = Database::instance() -> query( " delete from character_stats where name ='disease' and param1='plague'; ");
 
 					// stabilisce quanti giocatori per ogni regno devono essere infettati (10%)
 
